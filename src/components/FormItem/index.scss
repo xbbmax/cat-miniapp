@@ -1,0 +1,27 @@
+.form-item {
+  margin-bottom: 28rpx;
+}
+
+.form-label {
+  font-size: 26rpx;
+  color: var(--text-secondary);
+  font-weight: 700;
+  margin-bottom: 12rpx;
+  display: flex;
+  align-items: center;
+}
+
+.form-required {
+  color: var(--danger);
+  margin-right: 4rpx;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.form-error {
+  font-size: 22rpx;
+  color: var(--danger);
+  margin-top: 8rpx;
+}

@@ -1,0 +1,80 @@
+.product-visual {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20rpx;
+  box-shadow: 0 10rpx 24rpx rgba(15, 23, 42, 0.08);
+}
+
+.product-visual--sm {
+  width: 168rpx;
+  height: 124rpx;
+  flex: 0 0 auto;
+}
+
+.product-visual--md {
+  width: 100%;
+  height: 260rpx;
+}
+
+.product-visual--lg {
+  width: 100%;
+  height: 320rpx;
+}
+
+.product-visual-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product-visual-mask {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.04) 0%, rgba(15, 23, 42, 0.28) 100%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+}
+
+.product-visual-chip {
+  position: absolute;
+  top: 16rpx;
+  left: 16rpx;
+  padding: 6rpx 14rpx;
+  border-radius: 9999rpx;
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  font-size: 22rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  backdrop-filter: blur(8px);
+}
+
+.product-visual-copy {
+  position: absolute;
+  left: 20rpx;
+  right: 20rpx;
+  bottom: 18rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 6rpx;
+}
+
+.product-visual-title {
+  color: #ffffff;
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-visual-subtitle {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 22rpx;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

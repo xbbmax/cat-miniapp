@@ -1,0 +1,7 @@
+.page-container { min-height: 100vh; background: #F8FAFC; padding: 24rpx 32rpx; }
+.form-input { width: 100%; height: 88rpx; background: #ffffff; border: 2rpx solid #E2E8F0; border-radius: 16rpx; padding: 0 28rpx; font-size: 28rpx; box-sizing: border-box; }
+.form-input:focus { border-color: #6366F1; }
+.form-picker { width: 100%; height: 88rpx; background: #ffffff; border: 2rpx solid #E2E8F0; border-radius: 16rpx; padding: 0 28rpx; font-size: 28rpx; color: #334155; display: flex; align-items: center; box-sizing: border-box; }
+.form-textarea { width: 100%; min-height: 150rpx; background: #ffffff; border: 2rpx solid #E2E8F0; border-radius: 16rpx; padding: 20rpx 28rpx; font-size: 28rpx; box-sizing: border-box; }
+.switch-row { display: flex; align-items: center; height: 88rpx; }
+.submit-btn { width: 100%; height: 92rpx; background: linear-gradient(135deg, #6366F1, #818CF8); color: #ffffff; font-size: 30rpx; font-weight: 600; border-radius: 16rpx; border: none; margin-top: 36rpx; }

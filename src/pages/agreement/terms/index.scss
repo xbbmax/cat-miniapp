@@ -1,0 +1,54 @@
+.agreement-page {
+  min-height: 100vh;
+  background: #F6F8F7;
+}
+
+.agreement-content {
+  padding: 32rpx 32rpx calc(60rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+}
+
+.agreement-date {
+  color: var(--text-muted);
+  font-size: 24rpx;
+  line-height: 1.55;
+}
+
+.agreement-date:first-child {
+  padding-top: 2rpx;
+}
+
+.agreement-section {
+  padding: 28rpx 26rpx;
+  margin-top: 22rpx;
+  background: #ffffff;
+  border: 1rpx solid rgba(221, 232, 228, 0.9);
+  border-radius: 24rpx;
+  box-shadow: 0 6rpx 20rpx rgba(34, 57, 50, 0.05);
+}
+
+.agreement-title {
+  margin-bottom: 16rpx;
+  color: var(--text-primary);
+  font-size: 30rpx;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.agreement-text {
+  margin-bottom: 14rpx;
+  color: var(--text-secondary);
+  font-size: 27rpx;
+  line-height: 1.75;
+}
+
+.agreement-text:last-child {
+  margin-bottom: 0;
+}
+
+.agreement-footer {
+  margin-top: 44rpx;
+  color: var(--text-muted);
+  font-size: 25rpx;
+  text-align: center;
+}

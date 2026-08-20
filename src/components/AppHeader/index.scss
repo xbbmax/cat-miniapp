@@ -1,0 +1,134 @@
+.app-header-spacer {
+  width: 100%;
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1rpx solid #f1f2f4;
+}
+
+.app-header-status {
+  background: #ffffff;
+}
+
+.app-header-main {
+  min-height: 88rpx;
+  padding-left: 32rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20rpx;
+}
+
+.app-header-brand {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+
+.app-header-logo {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6b5b, #ff8a7a);
+  color: #ffffff;
+  font-size: 26rpx;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 64rpx;
+}
+
+.app-header-name {
+  color: #1f2937;
+  font-size: 36rpx;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.app-header-actions {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22rpx;
+}
+
+.app-header-placeholder {
+  width: 116rpx;
+  height: 56rpx;
+  border-radius: 28rpx;
+  background: #f3f4f6;
+}
+
+.app-header-login {
+  color: #ff6b5b;
+  font-size: 26rpx;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.app-header-register {
+  height: 56rpx;
+  padding: 0 24rpx;
+  border-radius: 28rpx;
+  background: #ff6b5b;
+  color: #ffffff;
+  font-size: 26rpx;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.app-header-notification {
+  position: relative;
+  width: 56rpx;
+  height: 56rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header-notification-icon {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.app-header-badge {
+  position: absolute;
+  top: -4rpx;
+  right: -8rpx;
+  min-width: 30rpx;
+  height: 30rpx;
+  padding: 0 6rpx;
+  box-sizing: border-box;
+  border-radius: 15rpx;
+  background: #ef4444;
+  color: #ffffff;
+  font-size: 18rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+
+.app-header-avatar {
+  width: 56rpx;
+  height: 56rpx;
+  border-radius: 50%;
+  background: #ff6b5b;
+  color: #ffffff;
+  font-size: 24rpx;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
